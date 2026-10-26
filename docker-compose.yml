@@ -18,7 +18,7 @@ services:
     image: hemeswar/docker-backend-2400033056:latest
     container_name: docker-springboot
     ports:
-      - "2025:8080"
+      - "8081:8081"
     depends_on:
       - postgresdb
     restart: on-failure
